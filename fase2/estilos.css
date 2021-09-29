@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+body{
+    background: rgb(50, 122, 205);
+}
+
+.navegacion{
+    width: 1000px;
+    margin: 30px auto;
+    background: white;
+    
+}
+.navegacion ul{
+    list-style: none;
+}
+
+.menu > li{
+    position: relative;
+    display: inline-block;
+}
+.menu > li > a {
+    display: block;
+    padding: 15px 20px;
+    color: #353535;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    
+}
+
+.menu li a:hover{
+    color: orange;
+    transition: all .3s;
+}
+ 
+/*submenu*/
+.submenu1 {
+    position: fixed;
+    background: gray;
+    width: 100px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;} 
+
+.submenu1 li a{
+    display: block;   
+    padding: 15px;
+    color: #fff;
+    font-family: fantasy;
+    text-decoration: none;
+}
+
+.menu li:hover .submenu1{
+    visibility: visible;
+    opacity: 1;
+}
+
+/*submenu2*/
+.submenu2 {
+    position: fixed;
+    background:gray;
+    width: 150px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;} 
+
+.submenu2 li a{
+    display: block;   
+    padding: 15px;
+    color: #fff;
+    font-family: fantasy;
+    text-decoration: none;
+}
+
+.menu li:hover .submenu2{
+    visibility: visible;
+    opacity: 1;
+}
+
+/*submenu3*/
+.submenu3 {
+    position: fixed;
+    background: gray;
+    width: 140px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;} 
+
+.submenu3 li a{
+    display: block;   
+    padding: 15px;
+    color: #fff;
+    font-family: fantasy;
+    text-decoration: none;
+}
+
+.menu li:hover .submenu3{
+    visibility: visible;
+    opacity: 1;
+}
+
+/*submenu4*/
+.submenu4 {
+    position: fixed;
+    background: gray;
+    width: 120px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;} 
+
+.submenu4 li a{
+    display: block;   
+    padding: 15px;
+    color: #fff;
+    font-family: fantasy;
+    text-decoration: none;
+}
+
+.menu li:hover .submenu4{
+    visibility: visible;
+    opacity: 1;
+}
+
+img{
+    width: 1400px;
+    height: 180px;
+    
+}
+
+/*CONTENIDO*/
+
+h4{
+
+    margin: 5rem auto;     
+     text-align: center;
+     font-size: 200%;
+    
+}
+
+footer{
+    text-align: center;
+}
+
+
+section{
+    text-align: center;
+    font-size: 22px;
+    background: white;
+    margin: 10rem;
+     
+}
+section p{
+    margin: 0rem;
+    font-family: Arial, Helvetica, sans-serif;
+}     
+
+
+.sitio-contenido{
+    margin: 2rem auto;
+    max-width: calc(70% - 90px);
+}
+
+.articulo-contenido{
+    display: grid;
+    /*grid-template-columns: repeat(auto-fill, minmax(265px, lfr));*/
+    grid-template-columns: inherit;
+    gap: 3rem;
+}
+
+.articulo-imagen{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+.articulo-imagen img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0 0;
+    
+}
+.articulo-tarjeta{
+    background: white;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+.articulo-tarjeta:hover{
+    box-shadow: 0 4px 20px 0 rgba(34, 68, 123,0, 2);
+    cursor: pointer;
+}
+.articulo-contenido{
+    padding: 2rem;
+}
+.articulo-contenido .acceso{
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    color: #6b82a7;
+    display: block;
+     
+}
+.articulo-contenido .titulo{
+    margin: 1rem 0;
+    color: #22447b;
+}
+.articulo-contenido .definicion{
+    font-size: 1rem;
+    line-height: 1,4rem;
+    color: #6b82a7;
+    margin: 0;
+}

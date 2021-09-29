@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <img src="titulo.PNG" alt="">
+
+        <nav class="navegacion">
+            <ul class="menu">
+                
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Temas</a>
+                <ul class="submenu1">
+                        <li><a href="#">Tema 1</a></li>
+                        <li><a href="#">Tema 2</a></li>
+                    </ul> 
+                </li>
+                    
+                        <li><a href="#">Recursos Digitales</a>
+                        <ul class="submenu2">
+                        <li><a href="#">Recurso 1</a></li>
+                        <li><a href="#">Recurso 2</a></li>
+                </ul> 
+                        </li>
+                    
+                    <li><a href="#">Aprendizaje</a>
+                     <ul class="submenu3">
+                        <li><a href="#">Actividad 1</a></li>
+                        <li><a href="#">Actividad 2</a></li>
+                </ul>
+                    </li>
+               
+                    <li><a href="#">Acerca de</a>
+                    <ul class="submenu4">
+                        <li><a href="#">Autor</a></li>
+                </ul> 
+                    </li>
+                
+            </ul>
+        </nav>  
+
+    </header>
+    
+    <section class="Propo">
+
+        <h4>Proposito del sitio</h4>
+        <p>En esta fase se creara una pagina con un menu desplegable, asi mismo se abordara el tema 
+            seleccionado, dando a conocer la definicion de flex box, listas y enlaces. 
+            aprenderemos a crear una pagina cde acuerdo al tema seleccionado, posteriormente se hara el mismo
+            diseño en una herramienta en un Mockup, en este caso se uso balsamiq, una herramineta muy util y facil para
+            estructurar una pagina como lo necesitemos.
+        </p>
+
+    </section>      
+   
+    
+
+    <div class="sitio-contenido">
+
+        <div class="articulo-contenido">
+
+            <article class="articulo-tarjeta">
+
+                <figure class="articulo-imagen">
+
+                    <img src="imagenes/flex-box.jpg" alt="">
+                    
+                </figure>
+
+                <div class="articulo-contenido">
+                    <a href="#" class="acceso">Ingresar</a>
+                    <h3 class="titulo">Flex box</h3>
+                    <p class="definicion">Flexbox ( o el módulo de cajas flexiblesstar ) es probablemente 
+                        uno de los más completos y eficaces módulos de maquetación. Todo lo que era complicado 
+                        en versiones anteriores de CSS ( como centrar verticalmente o diseñar estructuras que s
+                        e redimensionen con elegancia ) con flexbox ( CSS3 ) es ya una tarea muy fácil. <br>
+                        Flexbox representa un modelo básico de maquetación que supone la existencia de una 
+                        caja padre llamada contenedor flexible o caja flex. Los elementos hijos situados 
+                        dentro del contenedor flexible llevan el nombre de elementos o ítems flex. <br>
+                        Los elementos flex tienen la capacidad de redimensionarse y recolocarse dentro de la
+                        caja flex con facilidad. También tienen la capacidad de alinearse tanto horizontalmente 
+                        como verticalmente y todo esto puede ser muy interesante a la hora de diseñar páginas web 
+                        adaptativas.
+                        La propiedad display esta por ahí desde CSS1, pero es en el CSS3 cuando adquiere la 
+                        capacidad de transformar una caja cualquiera en un contenedor flex. Para esto tiene que 
+                        tomar una de estas valores: flex o flex-inline.
+                    </p>
+
+                </div>
+
+
+            </article>
+
+            <article class="articulo-tarjeta">
+
+                <figure class="articulo-imagen">
+
+                    <img src="imagenes/Listas.png" alt="">
+                    
+                </figure>
+
+                <div class="articulo-contenido">
+                    <a href="#" class="acceso">Ingresar</a>
+                    <h3 class="titulo">Listas</h3>
+                    <p class="definicion">Las listas en HTML nos permite crear conjuntos de 
+                        elementos en forma de lista dentro de una página, todos los cuales irán 
+                        precedidos, generalmente, por un guión o número. <br>
+
+                        Los tipos de listas en HTML son los siguientes: <br>
+                        
+                        Listas ordenadas <br>
+                        Listas desordenadas <br>
+                        Listas de definiciones <br>
+
+                        Las listas en HTML ordenadas son aquellas que nos muestran los 
+                        elementos de la lista en orden. Para representar el orden tendremos los 
+                        elementos numerados. Es decir, cada uno de los elementos irá precedido de 
+                        un número o letra que establezca su orden.
+
+                        Las listas en HTML ordenadas se representan mediante el elemento OL.
+                    </p>
+
+                </div>
+
+
+            </article>
+
+            <article class="articulo-tarjeta">
+
+                <figure class="articulo-imagen">
+
+                    <img src="imagenes/Enlaces.png" alt="">
+                    
+                </figure>
+
+                <div class="articulo-contenido">
+                    <a href="#" class="acceso">Ingresar</a>
+                    <h3 class="titulo">Enlaces</h3>
+                    <p class="definicion">Lo más importante de los documentos HTML son los enlaces. Ya que mediante los enlaces en HTML 
+                        podemos comunicar una página con otra. De esta forma, enlazando documentos HTML podemos acabar 
+                        tejiendo lo que es Internet. <br>                        
+                                                
+                        Pero solo con esto el enlace no tendrá mucha utilidad ya que el principal objetivo del enlace es 
+                        enlazar a un destino. Para poder indicar el destino de un enlace utilizamos el atributo href. 
+                        En valor del atributo href puede ser cualquier URI que represente un recurso. 
+                        Es decir, una página, una parte de una página, una URL genérica, un archivo,… <br>
+
+                        Pero, ¿dónde se abre el enlace? Pues por defecto y si no hemos configurado nada en el navegador 
+                        web que estemos utilizando el enlace se abre en la misma ventana en la que tengamos el enlace.
+
+                        Si bien, en el enlace, podemos indicar el destino que queremos darle a dicho enlace. 
+                        Eso lo podemos hacer mediante el atributo target. Los posibles valores que admite el atributo target son:
+
+                        _blank, el agente de usuario intentará abrir el enlace en una nueva ventana. La nueva ventana no tendrá nombre.
+                        _self, el agente de usuario intentará abrir el enlace en el mismo marco donde está en código actual.
+                        _parent, el agente de usuario intentará abrir el enlace en el frameset inmediatamente superior al que 
+                        se encuentra la página. Esto suele suceder cuando tenemos el enlace en un área de frames.
+                        _top, el agente de usuario intentará abrir el enlace en la ventana padre. En el caso de que exista un 
+                        frameset lo eliminará y se hará con toda la ventana.
+                        nombre_marco, se podrá indicar el nombre de un frame. En este caso el agente de usuario intentará abrir 
+                        el enlace en el frame que coincida con el nombre. En el caso de no existir un frame con ese nombre lo 
+                        abrirá en una nueva ventana, asignándole dicho nombre.
+                       
+
+                    </p>
+
+                </div>
+
+               <h4>Mi mockup</h4>
+
+                <article class="articulo-tarjeta">
+
+                    <figure class="articulo-imagen">
+    
+                        <img src="imagenes/Mi-mockup.PNG" alt="">
+                        
+                    </figure>
+    
+                    <div class="articulo-contenido">
+                        
+                        <!--<h3 class="card-tittle">Diseño</h3>-->
+                        
+                    </div>
+    
+    
+                </article>
+            
+        </div>
+
+
+    </div>
+
+    <footer>
+        <p>correo: hecuricos@unadvirtual.edu.co <br>
+            skype: hecs4 <br>
+            fecha: 29/09/2021 <br>
+            Autor: Henry eduardo curico salaña <br>
+        </p>
+    </footer>
+
+
+  
+        <!--<div class="Propo">
+            <h4>Proposito del sitio</h4>
+            <p>En esta fase se creara una pagina con un menu desplegable, asi mismo se abordara el tema 
+                seleccionado, dando a conocer la definicion de flex box, listas y enlaces. 
+            </p>
+            <article class="team1">
+                <h4>Flex box</h4>
+                <img src="imagenes/descarga.jfif" alt="">
+                <p>aqui se pne la descripcion del tema seleccionado</p>
+                <p>Attardi, J. (2020). Flexbox. In Modern CSS (pp. 205-228). Apress, Berkeley, CA.</p>
+            </article>
+            <article class="team2"> 
+                <h4>Listas</h4>
+                <img src="imagenes/images.png" alt="">
+                <p>aqui se pne la descripcion del tema seleccionado</p>
+                <p>Attardi, J. (2020). Flexbox. In Modern CSS (pp. 205-228). Apress, Berkeley, CA.</p>
+            </article>
+            <article class="team3">
+                <h4>Enlaces</h4>
+                <img src="imagenes/Paginas-web.jpg" alt="">
+                <p>aqui se pne la descripcion del tema seleccionado</p>
+                <p>Attardi, J. (2020). Flexbox. In Modern CSS (pp. 205-228). Apress, Berkeley, CA.</p>
+            </article>
+
+
+        </div>-->
+         
+    
+</body>
+</html>
