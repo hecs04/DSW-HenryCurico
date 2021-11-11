@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informacion general</title>
+    <link rel="stylesheet" href="flexbox.css">
+    
+</head>
+<body>
+    <h1>Listas y enlaces</h1>
+    <nav>
+        
+    </nav>
+    <div class="contenido">
+        <div class="articulos">
+            <div class="seccion">
+                <div>
+                    <h2 >Listas</h2><br>
+
+                    <p >Las listas HTML representan uno de los principales medios para 
+                        presentar contenido en una página web, en este artículo estudiamos 
+                        como agregarlas a nuestro código y darles un estilo adecuado, además 
+                        de dar muchos ejemplos prácticos de su uso.                        
+                        .</p> <br>
+                        Cuando comenzamos a explorar las posibilidades de la maquetación de páginas web, dentro de los primeros elementos que aprendemos a manejar se encuentran las listas.
+
+                        Por supuesto que la generación de listas ordenadas y no ordenadas 
+                        dentro de los textos es algo frecuente, pero no es para lo único que 
+                        se emplean las etiquetas ul y ol junto con los ítems de lista li.
+                        Si el código de tu página esta dominado por párrafos e imágenes, lo 
+                        más probable es que pienses que no te resultará necesario aprender 
+                        sobre listas, pero las verdad es que son la mejor forma de estructurar 
+                        la navegación en un sitio, por lo que es fundamental que tengas esto en
+                         tus conceptos al momento de desarrollar y diseñar tu sitio.
+                </div>                
+                <div><img src="imag/listas-html-ul-ol-dl.jpg" alt=""></div>
+               
+                    <h2>Listas ordenadas y desordenadas con HTML: ol y ul</h2><br>
+
+                    <p>Las listas ordenadas y desordenadas son las de uso más común en el }
+                    código, al analizar la estructura de ambas encontraremos que son muy s
+                    imilares, es simplemente su visualización la que las diferencia.</p><br>
+                    <p>Una lista desordenada será aquella que utilizaremos cuando los elementos 
+                    que estamos mostrando no necesitan llevar un orden específico, es decir 
+                    simplemente son puntos los cuales pueden leerse de forma aleatoria o cuya 
+                    importancia es equitativa por lo que todos los puntos de la lista son igual 
+                    de relevantes.</p> <br>
+                    <div> <img src="imag/Captura.PNG" alt=""></div>                    
+                    <div> <img src="imag/tru.PNG" alt=""></div>                    
+            </div>
+                    <h2>Presentación de listas: entendiendo CSS</h2><br>
+
+                    <p>La forma en que visualizaremos las listas variará si utilizamos o no CSS.
+                    Por defecto las listas ordenadas mostrarán sus puntos con un círculo relleno 
+                    de color negro, mientras que las listas ordenadas muestran cada punto precedido 
+                    por el número correspondiente a su orden.</p>
+                    <p>Esto puede ser cambiado mediante la propiedad “list-style-type”, la 
+                        cual nos permiten elegir la forma de los indicadores.
+
+                        Generalmente tenemos cinco tipos básicos de forma entre los cuales 
+                        podemos:
+                        
+                        Círculo relleno,
+                        Círculo vacío,
+                        Cuadrado,
+                        Números decimales y
+                        Número romanos
+                        El que sea de nuestro gusto deberá ser indicado como valor de la propiedad “list-style-type” y eso hará que cambie la visualización, hay que aclarar que también podemos utilizar el valor “none” en caso de que no queramos que se muestre ningún símbolo al inicio.
+                        
+                        Los valores correctos para el CSS son “disc” si queremos el círculo rellno, “circle” para el círculo vacío, “square” para el cuadrado, “decimal” para los números arábigos, “lower-roman” para los números romanos en minúscula y “upper-roman” para representarlos con mayúsculas.</p>
+                <div><img src="imag/fok.PNG" alt=""></div>
+        </div>
+       
+         
+        
+    </div>  
+
+    <div class="contenido">
+        <div class="articulos">
+            <div class="seccion">
+                <div>
+                    <h2>Enlaces HTML</h2> <br>
+
+                        <p>Lo más importante de los documentos HTML son los enlaces. 
+                        Ya que mediante los enlaces en HTML podemos comunicar una página con 
+                        otra. De esta forma, enlazando documentos HTML podemos acabar tejiendo 
+                        lo que es Internet.
+
+                        Para crear un enlace en HTML utilizamos el elemento A con la siguiente 
+                        sintaxis:</p> <br>
+                        <p>Pero solo con esto el enlace no tendrá mucha utilidad ya que el principal objetivo
+                        del enlace es enlazar a un destino. Para poder indicar el destino de un enlace utilizamos 
+                        el atributo href. En valor del atributo href puede ser cualquier URI que represente un recurso. Es decir, una página, una parte de una página, una URL genérica, un archivo,… De esta forma el enlace en HTML lo crearemos con la sintaxis:</p>
+                        <div><img src="imag/Captura1.PNG" alt=""></div>
+                        <h2>Destino del enlace</h2> <br>
+
+                        <p>Pero, ¿dónde se abre el enlace? Pues por defecto y si no hemos configurado nada en el navegador web que estemos utilizando el enlace se abre en la misma ventana en la que tengamos el enlace.
+
+                            Si bien, en el enlace, podemos indicar el destino que queremos darle a dicho enlace. Eso lo podemos hacer mediante el atributo target. Los posibles valores que admite el atributo target son:
+                            
+                            _blank, el agente de usuario intentará abrir el enlace en una nueva ventana. La nueva ventana no tendrá nombre.
+                            _self, el agente de usuario intentará abrir el enlace en el mismo marco donde está en código actual.
+                            _parent, el agente de usuario intentará abrir el enlace en el frameset inmediatamente superior al que se encuentra la página. Esto suele suceder cuando tenemos el enlace en un área de frames.
+                            _top, el agente de usuario intentará abrir el enlace en la ventana padre. En el caso de que exista un frameset lo eliminará y se hará con toda la ventana.
+                            nombre_marco, se podrá indicar el nombre de un frame. En este caso el agente de usuario intentará abrir el enlace en el frame que coincida con el nombre. En el caso de no existir un frame con ese nombre lo abrirá en una nueva ventana, asignándole dicho nombre.</p>
+                        </div><br>
+                        <div><img src="imag/Captura2.PNG" alt=""></div>
+                <div><img src="imag/programador.png" alt=""></div>
+            </div>
+        </div>
+    </div>  
+    <div class="menu"></div>
+ 
+<br>
+<br>
+<br>
+<br>
+<footer>
+    <p>correo: hecuricos@unadvirtual.edu.co <br>
+        skype: hecs4 <br>
+        Autor: Henry eduardo curico salaña <br>
+    </p>
+</footer>
+ 
+    
+</body>
+</html>
