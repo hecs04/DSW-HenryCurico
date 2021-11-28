@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0; 
+   
+
+}
+h1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+nav ul{
+    background-color: darkgray;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+    
+     
+}
+nav li{
+    display: inline-flex;
+    color: black;
+    background-color:  lightblue;
+    font-size: 22px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 150px;
+}
+nav li:hover{
+    background-color: black;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+.contenido h2{
+    text-align: center;
+}
+.contenido  {
+    display: flex;
+    margin: 0%;
+    text-align: center;
+    font-size: 30px;
+    text-align: justify;
+         
+}
+
+.articulos{
+    width: max-content;
+    /*border-right: 10px solid black;*/
+}
+.seccion{
+    display: flex;
+    align-items: unset;
+    padding: 40px;
+}
+footer{
+    text-align: center;
+}
